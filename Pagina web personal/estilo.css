@@ -1,0 +1,104 @@
+body {
+    background: #1d048e;
+    text-align: center;
+    font-family: Arial;
+    margin: 100px;
+}
+
+h2 {
+    color: red;
+}
+
+p {
+    color: rgb(3, 235, 92);
+    margin: 20px;
+    font-size: 20px;
+}
+
+#favoritos {
+    color: blue;
+}
+
+section {
+    background-color: #618787;
+    padding: 10px;
+    margin: 20px;
+    font-size: 20px;
+
+}
+
+section>h3 {
+    text-align: center;
+}
+
+#tabla {
+    margin: auto;
+    text-align: center;
+}
+
+ul {
+    list-style-position: inside;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.nuevo {
+    color: red;
+    text-align: center;
+    font-size: 30px;
+}
+
+a {
+    color: red;
+}
+
+#java {
+    list-style-type: '♨️';
+}
+
+#payaso {
+    list-style-type: '🤡';
+}
+
+#music {
+    list-style-type: '🎵';
+}
+
+#trollear {
+    list-style-type: '🧌';
+}
+
+#videojuegos {
+    list-style-type: '🎮';
+}
+
+#zzz {
+    list-style-type: '💤';
+}
+
+#guitarra {
+    list-style-type: '🎸';
+}
+
+#pelis {
+    list-style-type: '📺';
+}
+
+.listaJuego {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.juego {
+    width: 150px;
+    text-align: center;
+}
+
+.juego img {
+    width: 100%;
+    border-radius: 8px;
+}
