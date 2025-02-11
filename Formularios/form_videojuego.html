@@ -1,0 +1,66 @@
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Registro de Videojuegos</title>
+    <link rel="stylesheet" type="text/css" href="estilo_forms.css">
+    <img src="" alt="">
+</head>
+
+<body>
+    <div id="container">
+        <h1>Registro de Videojuegos</h1>
+        <img id="imagenStart" src="https://media0.giphy.com/media/PrfN2Hqu24ln2eAaOS/giphy.gif">
+        <form>
+            <label for="titulo">Título:</label>
+            <input type="text" name="titulo" required>
+            <br>
+
+            <label for="desarrollador">Desarrollador:</label>
+            <input type="text" name="desarrollador" required>
+            <br>
+
+            <label for="fecha">Fecha de Lanzamiento:</label>
+            <input type="date" name="fecha">
+            <br>
+
+            <label for="genero">Género:</label>
+            <select name="genero">
+                <option value="">Seleccionar:</option>
+                <option value="accion">Acción</option>
+                <option value="aventura">Aventura</option>
+                <option value="rpg">RPG</option>
+                <option value="estrategia">Estrategia</option>
+                <option value="deportes">Deportes</option>
+            </select>
+            <br>
+
+            <label for="plataforma">Plataforma:</label>
+            <input type="text" name="plataforma" required>
+            <br>
+
+            <label for="clasificacion">Clasificación:</label>
+            <select name="clasificacion">
+                <option value="">Seleccionar:</option>
+                <option value="E">E </option>
+                <option value="T">T </option>
+                <option value="M">M </option>
+                <option value="A">A </option>
+            </select>
+            <br>
+
+            <label>Portada del Videojuego:</label>
+            <input type="file" name="portada" accept="image/*">
+            <br>
+
+
+            <input type="checkbox" name="aceptar">Acepto los términos y condiciones
+            <br>
+
+            <button type="submit">Registrar Videojuego</button>
+        </form>
+    </div>
+</body>
+
+</html>
