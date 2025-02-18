@@ -1,0 +1,96 @@
+h1 {
+    text-align: center;
+    font-size: 50px;
+    animation: rgbGlow 3s infinite alternate;
+    background: rgb(0, 0, 0);
+    padding: 20px;
+}
+
+body {
+    margin: 5;
+    background: url('https://images.template.net/376680/Neon-Gaming-Background-edit-online-1.jpg') center/cover no-repeat fixed;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+
+
+.texto {
+    text-align: center;
+    font-size: 20px;
+    animation: rgbGlow 3s infinite alternate;
+    padding: 8px;
+}
+
+.descripcion {
+    font-size: 20px;
+    color: rgb(77, 70, 70);
+    font-weight: bold;
+    word-wrap: break-word;
+    max-width: 100%;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+
+.contenedor{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	background: rgb(245, 245, 245);
+	padding: 50px;
+	height: fit-content;
+    gap: 25px;
+}
+
+.diositoKojima {
+    display: grid;
+    margin: auto;
+    width: 300px;
+    height: 300px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 250px;
+    min-height: 400px; 
+    padding: 15px;
+    background: url('https://i.gifer.com/7HHu.gif') center/cover no-repeat fixed;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.item img {
+    max-width: 70%;
+    height: 250px;
+    border-radius: 5px;
+}
+
+
+
+@keyframes rgbGlow {
+    0% {
+        color: red;
+    }
+
+    25% {
+        color: blue;
+    }
+
+    50% {
+        color: green;
+    }
+
+    75% {
+        color: yellow;
+    }
+
+    100% {
+        color: red;
+    }
+}
