@@ -1,0 +1,49 @@
+body {
+    background: url('https://png.pngtree.com/background/20210711/original/pngtree-hand-drawn-blue-sky-white-clouds-weather-forecast-illustration-background-picture-image_1137685.jpg') no-repeat center;
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.6); 
+    border-radius: 10px;
+    padding: 40px;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 30px;
+    color: rgb(0, 253, 253) !important;
+}
+
+
+#lista_ciudades {
+    display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-wrap: wrap;
+	background: rgb(21, 59, 59);
+	padding: 50px;
+	height: fit-content;
+    gap: 25px;
+}
+
+.ciudad {
+    width: 300px;
+    background: #050505 !important;
+    color: rgb(150, 150, 150) !important;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    text-align: center;
+}
